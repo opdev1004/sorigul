@@ -1,0 +1,36 @@
+{
+  "name": "sorigul",
+  "version": "0.0.1",
+  "description": "한글 낱자(자모)를 소리나는 대로의 낱자(자모)로 변환해주는 패키지입니다. A package that convert Korean Hangul to how they sound like in Hangul.",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pack": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opdev1004/sorigul.git"
+  },
+  "keywords": [
+    "hangul",
+    "한글",
+    "ml",
+    "machine-learning",
+    "korean",
+    "korean-letters",
+    "tts"
+  ],
+  "author": "Victor Chanil Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opdev1004/sorigul/issues"
+  },
+  "homepage": "https://github.com/opdev1004/sorigul#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
